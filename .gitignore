@@ -1,0 +1,5 @@
+.DS_Store
+.claude/
+index-v2.html
+clientes/clientes.csv
+clientes/_gerar.py
