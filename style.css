@@ -524,8 +524,9 @@ footer {
 /* ── MOBILE — 768px ── */
 @media (max-width: 768px) {
   /* Nav */
+  nav { padding: 0 16px; }
   .nav-links { display: none; }
-  .btn-nav { padding: 8px 18px; font-size: 10px; }
+  .btn-nav { padding: 8px 14px; font-size: 10px; letter-spacing: .08em; white-space: nowrap; }
 
   /* Sections */
   .section { padding: 64px 20px; }
@@ -583,11 +584,15 @@ footer {
 
 /* ── MOBILE — 480px ── */
 @media (max-width: 480px) {
+  nav { padding: 0 16px; }
+  .btn-nav { padding: 7px 14px; font-size: 10px; letter-spacing: .08em; }
   .hero-headline { font-size: clamp(1.75rem, 9vw, 2.5rem); }
   .stats-grid { grid-template-columns: 1fr; }
   .stat-val { font-size: 48px; }
   .section-title { font-size: clamp(1.6rem, 7vw, 2.4rem); }
   .logo-mark { height: 28px; }
+  .btn-primary { white-space: normal; text-align: center; padding: 14px 24px; }
+  .btn-ghost { white-space: normal; text-align: center; padding: 14px 24px; }
 }
 
 /* Touch devices — disable hover-only effects */
